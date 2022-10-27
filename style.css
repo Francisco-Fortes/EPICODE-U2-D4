@@ -1,0 +1,76 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@500;700&family=Yellowtail&display=swap");
+
+:root {
+  --color-primary: #7eb693;
+  --color-primary-light: #eff6f1;
+  --color-secondary: #efd372;
+  --color-dark: #274c5b;
+  --color-light: #f9f8f8;
+  --body-font: "Open Sans", sans-serif;
+  --sans-serif: "Roboto", sans-serif;
+  --cursive: "Yellowtail", cursive;
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.frame {
+  width: 100%;
+  height: 161vh;
+}
+
+.flexR {
+  display: flex;
+}
+
+.flexC {
+  display: flex;
+  flex-direction: column;
+}
+
+.just-sp-bw {
+  justify-content: space-between;
+}
+
+.left-container > span > img {
+  padding-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.right-container > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+/* WIP: Should we use flex-grown instead? */
+nav {
+  background-color: orange;
+  height: 3%;
+  /* flex-grow: 1; */
+}
+
+.banner {
+  background-color: yellow;
+  height: 16.5%;
+  /* flex-grow: 5; */
+}
+.info-bar {
+  background-color: blueviolet;
+  height: 4%;
+  /* flex-grow: 1.5; */
+}
+.main-container {
+  background-color: grey;
+  height: 74%;
+  /* flex-grow: 15; */
+}
+footer {
+  background-color: black;
+  height: 2.5%;
+  /* flex-grow: 1; */
+}
