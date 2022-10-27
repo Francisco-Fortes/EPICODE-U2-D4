@@ -31,8 +31,20 @@
   flex-direction: column;
 }
 
+.just-sp-c {
+  justify-content: center;
+}
+
 .just-sp-bw {
   justify-content: space-between;
+}
+
+.just-sp-ad {
+  justify-content: space-around;
+}
+
+.g10 {
+  gap: 10px;
 }
 
 .left-container > span > img {
@@ -44,33 +56,52 @@
 .right-container > img {
   width: 40px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 /* WIP: Should we use flex-grown instead? */
 nav {
-  background-color: orange;
+  background-color: white;
   height: 3%;
   /* flex-grow: 1; */
 }
 
-.banner {
-  background-color: yellow;
+.hero {
+  color: white;
+  background-color: #754ffe;
   height: 16.5%;
   /* flex-grow: 5; */
 }
+
+.hero p {
+  color: rgb(198, 198, 198);
+}
+
 .info-bar {
-  background-color: blueviolet;
+  background-color: white;
   height: 4%;
   /* flex-grow: 1.5; */
 }
 .main-container {
-  background-color: grey;
+  background-color: rgb(220, 220, 220);
   height: 74%;
   /* flex-grow: 15; */
 }
 footer {
-  background-color: black;
+  background-color: rgb(220, 220, 220);
   height: 2.5%;
   /* flex-grow: 1; */
+}
+
+.hero-leftC {
+  font-size: 14px;
+  width: 300px;
+}
+
+.hero-rightC > img {
+  height: 100%;
+}
+
+.cards-container {
+  background-color: rgba(255, 0, 0, 0.551);
 }
