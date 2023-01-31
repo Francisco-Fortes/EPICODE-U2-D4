@@ -44,7 +44,7 @@
 }
 
 .g10 {
-  gap: 10px;
+  gap: 40px;
 }
 
 .left-container > span > img {
@@ -59,7 +59,7 @@
   border-radius: 20px;
 }
 
-/* WIP: Should we use flex-grown instead? */
+/* WIP: Should we use flex-grow instead? */
 nav {
   background-color: white;
   height: 3%;
